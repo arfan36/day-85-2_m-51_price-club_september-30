@@ -1,6 +1,7 @@
 import './App.css';
 import AssignmentMark from './components/AssignmentMark/AssignmentMark';
 import NavBar from './components/NavBar/NavBar';
+import PhoneBar from './components/PhoneBar/PhoneBar';
 import Pricing from './components/Pricing/Pricing';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <p>This is just a paragraph</p>
       <Pricing></Pricing>
       <AssignmentMark></AssignmentMark>
+      <PhoneBar></PhoneBar>
     </div>
   );
 }
